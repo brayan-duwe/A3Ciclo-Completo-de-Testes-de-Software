@@ -9,10 +9,10 @@ describe('Upload de Arquivo', () => {
       cy.visit('https://the-internet.herokuapp.com/upload');
   
       // Define o arquivo que será usado para upload
-      const fileName = 'teste.txt';
+      const fileName = 'CASO DE TESTE - VINÍCIUS.pdf';
   
       // Faz o upload do arquivo
-      cy.get('input[type="file"]').attachFile(fileName);
+      cy.get('input[type="file"]').attachFile('../../CASO DE TESTE - VINÍCIUS.pdf');
   
       // Clica no botão de upload
       cy.get('#file-submit').click();
