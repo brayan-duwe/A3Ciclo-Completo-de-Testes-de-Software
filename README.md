@@ -123,8 +123,8 @@ Testamos a funcionalidade das caixas de seleção, verificando se elas podem ser
 **Observações:**
 - O comportamento de marcação/desmarcação foi muito rápido e não apresentou nenhum atraso ou erro de renderização.
 - Seria interessante testar com um maior número de caixas de seleção para verificar se o desempenho se mantém estável com mais elementos na página.
-<br>
-- **[dropdown.cy.js](/cypress/e2e/dropdown.cy.js)** 
+
+- **[dropdown.cy.js](/cypress/e2e/dropdown.cy.js)**
 *(TC008 - Validar o funcionamento do "Dropdown")*
 
 O teste foi realizado na página de Dropdown, que permite selecionar opções a partir de uma lista suspensa.
